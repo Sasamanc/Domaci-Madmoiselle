@@ -1,0 +1,32 @@
+
+footer{
+    padding:49px 0 25px;
+    
+
+    .social{
+        a{
+            &:not(:last-of-type){
+                margin-right: 35px;
+            }
+            font-size: 20px;
+            color:$primary;
+            transition: 0.5s linear;
+            &:hover{
+                transform: rotateZ(360deg);
+                color:$body-color !important;
+           
+
+            }
+        }
+    }
+
+
+    p{
+        font-size:1.4rem;
+        line-height: 4.1rem;
+        letter-spacing: -0.17px;
+        margin-bottom:0;
+    }
+
+
+}

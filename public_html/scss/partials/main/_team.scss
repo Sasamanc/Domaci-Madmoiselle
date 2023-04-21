@@ -1,0 +1,44 @@
+.team{
+    
+        padding-bottom: 6.7rem;
+   
+    
+    
+    
+    .team-content{
+        border:1px solid $primary;
+        @media(min-width:992px){
+        padding:54px 0 !important;
+        }
+        .team-member-picture{
+            img{
+                @media(min-width:992px){
+                    margin-inline:auto;
+                }
+            }
+        }s
+    
+        
+        .team-wraper{
+            @media(min-width: 992px){
+            padding: 31px 50px 54px 0 !important;
+        }
+        .team-member-title{
+            font-size:2.5rem;
+
+            @media(min-width:786px){
+                font-size: 3rem;
+            }
+
+        }
+
+       
+        .team-member-text{
+            font-size: 1.6rem;
+            font-weight: 300;
+            line-height:2.3rem;
+        }
+        }
+    }
+
+}

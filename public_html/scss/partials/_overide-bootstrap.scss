@@ -1,0 +1,95 @@
+html{
+    font-size: 10px;
+}
+
+$body-color: #1e1e1e;
+$primary: #ECD9D9;
+$herocolor:#fff;
+$info: #F5F5F5;
+
+$font-size-base:1.6rem;
+$grid-gutter-width: 1.2rem;
+$link-decoration:  none;
+$navbar-light-toggler-border-color: $primary;
+$navbar-light-icon-color: $primary;
+
+
+$navbar-light-color: $body-color;
+$navbar-light-hover-color: $primary;
+
+
+
+$grid-breakpoints: (
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px,
+);
+
+
+$container-max-widths: (
+sm: 540px,
+md: 720px,
+lg: 960px,
+xl: 1140px,
+);
+
+$aspect-ratios: (
+"1x1": 100%,
+"4x3": 93%,
+"16x9": 66.48%,
+"21x9": calc(9 / 21 * 100%),
+"single-services": 80.82%,
+"services": 79.13%,
+);
+
+$spacer: 1rem;
+$spacers: (
+0: 0,
+1: $spacer * .5,
+2: $spacer * 1,
+3: $spacer * 1.5,
+4: $spacer * 2,
+5: $spacer * 2.5,
+6: $spacer * 3,
+7: $spacer * 3.5,
+8: $spacer * 4,
+9: $spacer * 4.5,
+10: $spacer * 5,
+);
+
+.owl-theme .owl-dots .owl-dot span {
+        width: 8px;
+    height: 8px;
+    border: 1px solid $primary;
+background-color:$primary !important;
+opacity:0.5;
+display:flex; 
+justify-content:center; 
+align-items:start;
+}
+;
+
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color:$primary !important;
+    opacity:1;
+}
+;
+
+
+
+.owl-theme .owl-dots {
+
+    @media(min-width:992px){
+        position: absolute;
+        bottom:0;
+        left:50%;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+;
+
+$pagination-border:none;

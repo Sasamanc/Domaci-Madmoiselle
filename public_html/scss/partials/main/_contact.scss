@@ -1,0 +1,73 @@
+.contact{
+    margin:102px 0 50px;
+    @media(min-width:992px){
+        margin:102px 0 110px;
+    }
+    figure{
+        @media(min-width:992px){
+            position:absolute;
+            right:0;
+            max-width: calc(50% - 100% / 14);
+        }
+
+    }
+
+}
+.contact-data{
+    background-color:$primary;
+    padding:63px 0 60px;
+    @media(min-width:992px){
+        padding:33 0 30px;
+    }
+    p{
+        font-weight:300;
+        font-family:$lato;
+        font-size:2.4rem;
+        line-height:2.5rem;
+        color:$body-color;
+        margin-bottom:15px;
+    }
+    a{
+        font-weight:300;
+        font-family:lato;
+        font-size:2.4rem;
+        line-height:2.5rem;
+        color:$body-color;
+    }
+}
+.register-form{
+
+    .form-control{
+        border:none !important;
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        letter-spacing: -0.23px;
+        color:$body-color;
+        background-color: $info;
+
+    }
+    .btn{
+        border:1px solid $body-color;
+        font-size:1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.5px;
+        font-family: $lato;
+        padding:13px 30px 15px 30px;
+        border-radius: 0;
+        color:$body-color;
+        &:hover{
+            color:#fff;
+            transition:0.3s linear;
+        }
+    }
+    .contact-title{
+        font-size:2rem;
+        line-height: 3rem;
+        @media(mn-width:992px){
+            font-size:3rem;
+            line-height:4.5rem;
+        }
+        letter-spacing: 5px;
+        font-family: $bodoni;
+    }
+}

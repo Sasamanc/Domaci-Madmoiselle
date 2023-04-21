@@ -1,0 +1,27 @@
+
+.hero{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 218px 0 269px;
+
+    h2{
+        font-family: 'Bodoni 72', sans-serif;
+        font-size: 4rem;
+        line-height: 6.4rem;
+        letter-spacing: 2rem;
+        max-width:916px;
+        margin-inline: auto;
+        color:$herocolor;
+        @media(min-width:768px){
+            font-size: 6rem;
+            line-height: 8.4rem;
+        }
+    }
+}
+
+
+
+
+
+

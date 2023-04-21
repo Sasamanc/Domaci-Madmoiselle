@@ -1,0 +1,66 @@
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: $body-font;
+}
+a{
+    &:hover{
+        opacity:0.5;
+        transition:0.3s linear;
+    }
+}
+
+.section-title{
+    font-size: 2rem;
+    line-height: 3rem;
+    @media(min-width:992px){
+        font-size: 3rem;
+        line-height: 4.5rem;
+        text-align: start;
+    }
+    letter-spacing: 0.5rem;
+    color:$body-color;
+    font-family: 'Bodoni 72', sans-serif;
+    font-weight:500;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom:5rem;
+   
+    &:after{
+        content: '';
+        display: block;
+        height: 1px;
+        width: 74px;
+        background-color: $primary;
+        margin-top: 3rem;
+        margin-inline:auto;
+        @media(min-width:768px){
+            margin-left: 0px;
+        }
+    }
+
+}
+
+h2{
+    font-family: 'Bodoni 72', sans-serif;
+    font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 2rem;
+    margin-inline: auto;
+}
+
+.ratio{
+    display: block;
+    overflow: hidden;
+}
+
+.ratio > *{
+    object-fit: cover;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color:#1FDB84;
+}

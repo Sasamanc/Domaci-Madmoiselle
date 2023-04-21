@@ -1,0 +1,15 @@
+.news-hero-section{
+    padding:170px 0 181px;
+}
+
+/*PROVERTI*/
+.services-item{
+    &:nth-of-type(even){
+        img{
+            order:0;
+        }
+        @media(min-width:786px){
+            order: -1;
+        }
+    }
+}
